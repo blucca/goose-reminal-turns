@@ -72,6 +72,7 @@ def main():
             env = {**os.environ,
                    'HOME': str(home), 'XDG_CONFIG_HOME': str(home / '.config'),
                    'XDG_DATA_HOME': str(home / '.local/share'), 'XDG_CACHE_HOME': str(home / '.cache'),
+                   'GOOSE_PATH_ROOT': str(home),
                    'GOOSE_CONFIG_DIR': str(home / '.config/goose'), 'GOOSE_DISABLE_KEYRING': '1',
                    'GOOSE_MODE': 'auto', 'GOOSE_PROVIDER': 'openai', 'GOOSE_MODEL': 'gpt-4o',
                    'OPENAI_API_KEY': 'local-fixture-only',
