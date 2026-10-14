@@ -1,0 +1,5 @@
+{
+  "name": "reminal-turns",
+  "version": "0.1.0",
+  "description": "Report Goose turn completion to the Reminal session running it."
+}
